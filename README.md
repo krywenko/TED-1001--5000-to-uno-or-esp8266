@@ -7,3 +7,5 @@ there are other files related to TED 1001 and the ted display module  to capture
 
 Basically how it works is that we capture the TX data being sent  from the  5000 mtu CPU to its powerline encoder and pass it onto the to the arduino or esp8266  to decode  and transmit or display the info on LCD
 
+http://www.theenergydetective.com/1001mtu.html
+
