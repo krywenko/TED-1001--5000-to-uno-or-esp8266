@@ -5,4 +5,5 @@ it only requirs to wires  a ground wire and a  serial pin wire then connect it t
 
 there are other files related to TED 1001 and the ted display module  to capture  and store info directly to computer  it also contains various Pl and sh to data  store to RRD and graphing to webpages .   also included is one of my original GTI limiter based on  data grabed from  TED MTU module
 
+Basically how it works is that we capture the TX data being sent  from the  5000 mtu CPU to its powerline encoder and pass it onto the to the arduino or esp8266  to decode  and transmit or display the info on LCD
 
