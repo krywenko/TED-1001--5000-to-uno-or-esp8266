@@ -9,3 +9,25 @@ Basically how it works is that we capture the TX data being sent  from the  5000
 
 http://www.theenergydetective.com/1001mtu.html
 
+to get this sketch to work with your TED MTU  you need to edit this line and add in your MTU - it is inverted binary of your MTU to invert your MTU just  follow this example:
+
+
+example : MTU 229 = hex E5  //decimal to hex converter
+hex to binary  
+e5 = 1110 0101
+invert the value for E5 
+1110 0101 = 00011010
+binary to hex
+00011010 = 1A //insert this into the sketch
+
+ edit this section of the shetch with your MTU
+ 
+void showGroupsOfBytes() {
+    if ( receivedBytes[0]==0x1A )  { //inverted binary of your MTU ie for 0x1A   hex = 0xE5 mTU decimal = 229
+    // if (numReceived < 9) {
+    byte j = 0;
+    byte k = 0;
+    byte m = 0;
+    byte r = 0;
+    byte h = 0x1A;  //edit here too
+     byte n = (0);
