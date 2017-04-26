@@ -24,10 +24,17 @@ binary to hex
  
 void showGroupsOfBytes() {
     if ( receivedBytes[0]==0x1A )  { //inverted binary of your MTU ie for 0x1A   hex = 0xE5 mTU decimal = 229
+    
     // if (numReceived < 9) {
+    
     byte j = 0;
+    
     byte k = 0;
+    
     byte m = 0;
+    
     byte r = 0;
+    
     byte h = 0x1A;  //edit here too
-     byte n = (0);
+    
+    byte n = (0);
