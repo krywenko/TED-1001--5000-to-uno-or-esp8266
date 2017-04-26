@@ -13,11 +13,14 @@ to get this sketch to work with your TED MTU  you need to edit this line and add
 
 
 example : MTU 229 = hex E5  //decimal to hex converter
+
 hex to binary  
 e5 = 1110 0101
+
 invert the value for E5 
 1110 0101 = 00011010
-binary to hex
+
+binary to hex 
 00011010 = 1A //insert this into the sketch
 
  edit this section of the sketch with your MTU
