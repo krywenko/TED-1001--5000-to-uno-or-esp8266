@@ -22,9 +22,8 @@ binary to hex
 
  edit this section of the shetch with your MTU
  
-void showGroupsOfBytes() {
-    if ( receivedBytes[0]==0x1A )  { //inverted binary of your MTU ie for 0x1A   hex = 0xE5 mTU decimal = 229
-    
+void showGroupsOfBytes() {  
+    if ( receivedBytes[0]==0x1A )  { //inverted binary of your MTU ie for 0x1A   hex = 0xE5 mTU decimal = 22
     // if (numReceived < 9) {
     
     byte j = 0;
