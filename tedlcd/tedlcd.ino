@@ -15,7 +15,7 @@ void setup() {
     Serial.begin(1200);
     Serial.println("<Arduino is ready>");
     Serial.begin(1200);
-lcd.begin();
+lcd.init();
 lcd.clear();
     
 }
@@ -81,13 +81,13 @@ void showNewData() {
 }
 
 void showGroupsOfBytes() {
-    if ( receivedBytes[0]==0x4E )  {
+    if ( receivedBytes[0]==0x1A )  { //4e
     // if (numReceived < 9) {
     byte j = 0;
     byte k = 0;
     byte m = 0;
     byte r = 0;
-    byte h = 0x4E;
+    byte h = 0x1A;
       byte n = (0);
       //n < numReceived; ) {
       h = receivedBytes[0];
