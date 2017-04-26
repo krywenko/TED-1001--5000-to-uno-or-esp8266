@@ -20,7 +20,7 @@ invert the value for E5
 binary to hex
 00011010 = 1A //insert this into the sketch
 
- edit this section of the shetch with your MTU
+ edit this section of the sketch with your MTU
  
 void showGroupsOfBytes() { 
 
